@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'); /*ควรไว้บนสุด font ถึงจะทำงาน*/
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 @theme{
     --font-display:"Plus Jakarta Sans", sans-serif;
+    --color-background:#f3f4ff;
     --color-blue-600:#13183f;
     --color-gray-600:#212529;
     --color-gray-500:#83869a;
