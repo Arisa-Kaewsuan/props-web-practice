@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme{
+    --color-blue-600:#13183f;
+    --color-gray-600:#212529;
+    --color-gray-500:#83869a;
+    --color-pink-400:rgba(243,58,143,1);
+    --color-pink-200:rgba(248,78,117,1);
+    --color-salmon-400:rgba(251,95,93,1);
+    /* --color-gradient:linear-gradient(180deg, rgba(243,58,143,1) 0%, rgba(248,78,117,1) 35%, rgba(251,95,93,1) 100%); */
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
