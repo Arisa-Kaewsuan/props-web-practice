@@ -6,24 +6,26 @@ const HomePage = () => {
   return (
     <>
       <div className='w-full max-w-screen'>
-        <div className='w-full'>
+        <div className='w-full p-5'>
             {/* Header Section*/}
-            <div className='flex justify-between'>
-              <img src=".\src\assets\logo.svg" alt="logo"/>
+            <div className='flex justify-between items-center'>
+              <div>
+                <img src=".\src\assets\logo.svg" alt="logo"/> 
+              </div>
               <GetStartButton/>
             </div>
 
             {/* Hero Section */}
             <div className='text-start'>
                 <h1 className='text-6xl font-semibold text-gray-600 my-18'>Maximize skill, minimize budget</h1>
-                <p className='text-lg text-gray-500 mb-8'>Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
+                <p className='text-lg text-gray-500 mb-10'>Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
                 <GetStartButton/>
                 <img src=".\src\assets\img.svg" alt="amount of course hours and members"/>
             </div>
 
             {/* Course Section */}
             <div>
-                <div>Check out our most popular courses!</div>
+                <h1 className='bg-gradient-to-t from-pink-400 via-pink-200 to-salmon-400 text-white '>Check out our most popular courses!</h1>
             </div>
             <CourseCards title="Animation" describe="Learn the latest animation techniques to create stunning motion design and captivate your audience."/>
             <CourseCards title="Design" describe="Create beautiful, usable interfaces to help shape the future of how the web looks."/>
