@@ -32,7 +32,7 @@ const HomePage = () => {
               <CourseCards title="Animation" describe="Learn the latest animation techniques to create stunning motion design and captivate your audience."/>
               <CourseCards title="Design" describe="Create beautiful, usable interfaces to help shape the future of how the web looks."/>
             </div>
-            <div className='flex flex-row md:px-30'>
+            <div className='md:flex md:flex-row md:px-30'>
                 <CourseCards title="Photography" describe="Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos."/>
                 <CourseCards title="Crypto" describe="All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course."/>
                 <CourseCards title="Business" describe="A step-by-step playbook to help you start, scale, and sustain your business without outside investment."/>
