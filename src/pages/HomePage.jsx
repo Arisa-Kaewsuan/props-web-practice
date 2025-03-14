@@ -5,7 +5,7 @@ import GetStartButton from '../components/GetStartButton'
 const HomePage = () => {
   return (
     <>
-      <div className='w-full max-w-screen'>
+      <div className='w-full max-w-screen font-display'>
         <div className='w-full p-5'>
             {/* Header Section*/}
             <div className='flex justify-between items-center'>
@@ -24,8 +24,8 @@ const HomePage = () => {
             </div>
 
             {/* Course Section */}
-            <div>
-                <h1 className='bg-gradient-to-t from-pink-400 via-pink-200 to-salmon-400 text-white '>Check out our most popular courses!</h1>
+            <div className='flex items-center'>
+                <h1 className='mb-10 px-8 py-14 text-4xl font-bold text-start w-full h-60 rounded-2xl bg-gradient-to-t from-pink-400 via-pink-200 to-salmon-400 text-white '>Check out our most popular courses!</h1>
             </div>
             <CourseCards title="Animation" describe="Learn the latest animation techniques to create stunning motion design and captivate your audience."/>
             <CourseCards title="Design" describe="Create beautiful, usable interfaces to help shape the future of how the web looks."/>
